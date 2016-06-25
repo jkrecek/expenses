@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Intranet pro užití Zdravotní pojišťovnou ministerstva vnitra České republiky.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>#YOLO trip expenses</title>
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="//code.getmdl.io/1.1.3/material.blue-orange.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body class=" mdl-color--grey-100">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <main class="mdl-layout__content">
+        <div class="mdl-grid max-width">
+            <div class="mdl-cell mdl-cell--12-col title-block">
+                <h1 class="center">#YOLO trip expenses</h1>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp">
+                <div class="mdl-card__supporting_text chart-block">
+                    <h4>Podle aktivit</h4>
+                    <div id="activityChart"></div>
+                </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp">
+                <div class="mdl-card__supporting_text chart-block">
+                    <h4>Podle zemí</h4>
+                    <div id="countryChart"></div>
+                </div>
+            </div>
+        </div>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">@Honza Křeček</div>
+            </div>
+
+        </footer>
+    </main>
+</div>
+
+
+<script type="text/javascript" src="//code.getmdl.io/1.1.3/material.min.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['corechart']}]}"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
